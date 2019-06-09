@@ -1,0 +1,305 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+#d {
+	width: 1060px;
+	height: 105px;
+	margin: 0 auto;
+}
+
+#d img {
+	float: left;
+}
+
+#d a {
+	float: right;
+	margin-top: 82px;
+	font-size: 14px;
+	color: #999999;
+	display: inline-block;
+	width: 170px;
+	height: 20px;
+	text-indent: 30px;
+	background: url(../img/me.jpg)no-repeat -5px;
+}
+
+#d a:hover {
+	color: red;
+}
+
+#warning {
+	width: 100%;
+	height: 40px;
+	background: #FFF8F0;
+}
+
+#c-warning {
+	width: 1060px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+#c-warning span {
+	font: "微软雅黑";
+	font-size: 12px;
+	color: #999999;
+	line-height: 40px;
+	margin-left: 160px;
+}
+
+#c-warning a {
+	font: "微软雅黑";
+	font-size: 12px;
+	line-height: 40px;
+	color: black;
+}
+
+#c-warning a:hover {
+	text-decoration: underline;
+}
+
+#middle {
+	width: 100%;
+	height: 500px;
+	background: #E93854;
+}
+
+#middle-m {
+	width: 1060px;
+	height: 500px;
+	margin: 0 auto;
+	background: url(../img/bg.jpg) no-repeat;
+}
+
+#middle-c {
+	width: 360px;
+	height: 440px;
+	background: white;
+	position: relative;
+	left: 600px;
+	top: 12px;
+}
+
+#middle-c span {
+	display: block;
+	height: 40px;
+	width: 360px;
+	background: #FFF8F0;
+	font: "微软雅黑";
+	font-size: 12px;
+	color: #999999;
+	line-height: 40px;
+	text-indent: 50px;
+}
+
+#middle-c button {
+	height: 60px;
+	width: 180px;
+	float: left;
+	background: none;
+	border-bottom: solid 1px #999999;
+	font-size: 20px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+#middle-c button:hover {
+	color: #E93854;
+	font-weight: bold;
+}
+
+#middle-c h3 {
+	position: relative;
+	top: -20px;
+}
+
+#middle-c h3 img {
+	float: left;
+	margin-left: 15px;
+}
+
+#middle-c h3 a {
+	float: left;
+	font-weight: normal;
+	color: #000000;
+	font-size: 14px;
+	line-height: 30px;
+	margin-left: 5px;
+}
+
+#middle-c h3 a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+#middle-c h4 {
+	position: relative;
+	top: -20px;
+	left: -15px;
+}
+
+#middle-c h4 img {
+	float: right;
+	margin-left: 15px;
+}
+
+#middle-c h4 a {
+	float: right;
+	font-weight: normal;
+	color: #E93854;
+	font-size: 14px;
+	line-height: 30px;
+	margin-left: 5px;
+}
+
+#middle-c h4 a:hover {
+	text-decoration: underline;
+}
+
+#landing {
+	width: 360px;
+	height: 270px;
+	display: block;
+}
+
+#landing form {
+	height: 50px;
+	width: 320px;
+	border: solid 1px #999999;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#landing form.onee {
+	margin-top: 97px;
+}
+
+#landing form input.bt {
+	height: 50px;
+	width: 50px;
+	background: none;
+	border: none;
+	background: url(../img/2019-05-11_135115.jpg)no-repeat;
+}
+
+#landing form input.bt2 {
+	height: 50px;
+	width: 50px;
+	background: none;
+	border: none;
+	background: url(../img/2019-05-11_135151.jpg)no-repeat;
+}
+
+#landing form input.text {
+	height: 47px;
+	width: 261px;
+	text-indent: 14px;
+}
+
+#landing form input.chan {
+	height: 47px;
+	width: 261px;
+	text-indent: 14px;
+}
+
+#landing a {
+	display: block;
+	margin-top: 20px;
+	position: relative;
+	left: 270px;
+	font-size: 14px;
+	color: #999999;
+}
+
+#landing a:hover {
+	color: aquamarine;
+	text-decoration: underline;
+}
+
+#landing button {
+	width: 320px;
+	height: 40px;
+	background: #E93854;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 22px;
+	color: white;
+}
+
+#landing button:hover {
+	color: white;
+	font-weight: normal;
+}
+
+#land {
+	display: none;
+	height: 360px;
+}
+
+#land img {
+	margin-left: 70px;
+}
+
+#land span {
+	display: inline;
+	margin-left: 90px;
+	font-size: 14px;
+	background: none;
+}
+
+#land span.dier {
+	margin-left: 30px;
+}
+
+#land a {
+	color: #E93854;
+}
+
+#copy {
+	height: 100px;
+	width: 1210px;
+	margin: 0 auto;
+	border-top: solid 1px #999999;
+}
+
+#copy a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #999999;
+	margin-left: 10px;
+	position: relative;
+	top: 20px;
+}
+
+#copy a:hover {
+	text-decoration: underline;
+}
+
+#copy a.bh1 {
+	margin-left: 200px;
+}
+
+#copy span {
+	font-size: 12px;
+	color: #999999;
+	margin-left: 5px;
+	position: relative;
+	top: 20px;
+}
+
+#copy span.last1 {
+	margin-left: 500px;
+	position: relative;
+	top: 30px;
+}
+#tt121 a{
+	position: relative;
+	left: -10px;
+	top: -10px;
+	color:white;
+}
